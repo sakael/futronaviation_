@@ -20,7 +20,7 @@
                                 <div class="accordion-item">
                                 <h2 class="accordion-header" id="heading_{{$key}}">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{$key}}" aria-expanded="true" aria-controls="collapse_{{$key}}">
-                                    {{$item->title}}
+                                    <b>{{$item->title}}</b>
                                     </button>
                                 </h2>
                                 <div id="collapse_{{$key}}" class="accordion-collapse collapse @if($loop->index == 0)show @endif" aria-labelledby="headingOne" data-bs-parent="#accordionExample">

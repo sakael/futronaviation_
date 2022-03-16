@@ -14,12 +14,12 @@
                     <!--<li class="list-inline-item position-relative me-md-5 me-0"><i
                             class="icon-phone2 fs-18 white"></i><span class="fs-14 raleway">(757)
                             269-9864</span></li>-->
-                    <li class="list-inline-item position-relative ms-2 me-3"><i
+                    <li class="list-inline-item position-relative ms-2 me-3"><a href="mailto:Info@futronaviation.com"><i
                             class="icon-mail fs-18 white"></i><span
-                            class="fs-14 raleway">Info@futronaviation.com</span></li>
-                    <li class="list-inline-item"><a href="mailto:>Info@futronaviation.com" class="me-1"><i
+                            class="fs-14 raleway">Info@futronaviation.com</span></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/futronaviation" class="me-1" target="_blank"><i
                                 class="icon-facebook fs-20 white"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class=""><i
+                    <li class="list-inline-item"><a href="https://twitter.com/futronaviation" class="" target="_blank"><i
                                 class="icon-twitter fs-20 white"></i></a></li>
                 </ul>
             </div>
@@ -87,16 +87,16 @@
             <div class="col-12 col-md-12 col-sm-12 col-lg-7 col-xl-7">
                 <div class="row align-items-center">
                     <div class="col-3 col-md-3">
-                        <img src="{{ asset('images/logos/35Logo.png') }}" class="img-fluid"
-                            style="max-width: 100%;">
+                        <a href="{{route('home')}}"><img src="{{ asset('images/logos/35Logo.png') }}" class="img-fluid"
+                            style="max-width: 100%;"></a>
                     </div>
                     <div class="col-6 col-md-6">
-                        <img src="{{ asset('images/logos/LOGO.png') }}" class="img-fluid"
-                            style="max-width: 100%">
+                        <a href="{{route('home')}}"><img src="{{ asset('images/logos/LOGO.png') }}" class="img-fluid"
+                            style="max-width: 100%"></a>
                     </div>
                     <div class="col-3 col-md-3">
-                        <img src="{{ asset('images/logos/topbarlogo.png') }}" class="img-fluid"
-                            style="max-width: 100%;">
+                        <a href="{{route('home')}}"><img src="{{ asset('images/logos/topbarlogo.png') }}" class="img-fluid"
+                            style="max-width: 100%;"></a>
                     </div>
                 </div>
             </div>

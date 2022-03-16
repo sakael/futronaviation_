@@ -14,8 +14,8 @@
             <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
                 <div class="text-center text-md-end d-inline-block">
                     <ul class="list-inline top-contact-info uppercase fs-16 footer-social-icons">
-                        <li class="list-inline-item"><a href="#" class="me-1"><i class="icon-facebook fs-20 "></i></a></li>
-                        <li class="list-inline-item"><a href="#" class=""><i class="icon-twitter fs-20 "></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/futronaviation" class="me-1" target="_blank"><i class="icon-facebook fs-20 "></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/futronaviation" class="" target="_blank"><i class="icon-twitter fs-20 "></i></a></li>
                     </ul>
                     <p class="text-end mt-3">© 2021 Futron Aviation. All rights reserved</p>
                 </div>

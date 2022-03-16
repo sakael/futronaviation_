@@ -125,7 +125,7 @@
 
 .bigscreen-nav .navbar a.active,
 .bigscreen-nav .navbar a:hover {
-    border-bottom: solid 2px red;
+    border-bottom: solid 2px #900039;
 }
 
 .bigscreen-nav .navbar a:hover {
@@ -133,7 +133,7 @@
 }
 
 .dropdown-toggle::after {
-    color: red;
+    color: #900039;
 }
 
 

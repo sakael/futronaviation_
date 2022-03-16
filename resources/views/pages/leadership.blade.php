@@ -23,7 +23,7 @@
                             <a class="fusion-social-network-icon fusion-tooltip icon-mail" href="mailto:{{$leadership->mail}}" target="_self" style="color:#FFFFFF;background-color:#e8e8e8;border-color:#e8e8e8;border-radius:4px;" data-placement="bottom" data-title="Mail" title="Mail" data-toggle="tooltip" data-original-title="Mail"></a></div>
                     </div>
                     <div class="person-content">
-                        {{$leadership->text}}
+                        {!! $leadership->text !!}
                     </div>
                 </div>
                 @endforeach
