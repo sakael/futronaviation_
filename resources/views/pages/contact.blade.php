@@ -24,39 +24,33 @@
   
       <!-- Name input -->
       <div class="mb-3">
-        <label class="form-label" for="name">Name</label>
         <input class="form-control" id="name" type="text" placeholder="Name" />
       </div>
       <!-- Name input -->
       <div class="mb-3">
-        <label class="form-label" for="company">Company</label>
         <input class="form-control" id="company" type="text" placeholder="Company" />
       </div>
   
       <!-- Email address input -->
       <div class="mb-3">
-        <label class="form-label" for="emailAddress">Email Address</label>
         <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
       </div>
          <!-- Name input -->
          <div class="mb-3">
-            <label class="form-label" for="phone">Phone</label>
             <input class="form-control" id="phone" type="text" placeholder="phone" />
           </div>
    <!-- Name input -->
         <div class="mb-3">
-            <label class="form-label" for="subject">Subject</label>
             <input class="form-control" id="subject" type="text" placeholder="subject" />
         </div>
       <!-- Message input -->
       <div class="mb-3">
-        <label class="form-label" for="message">Message</label>
         <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
       </div>
   
       <!-- Form submit button -->
       <div class="d-grid">
-        <button class="btn btn-primary btn-sm" type="submit">Send</button>
+        <button class="btn btn-primary btn-sm send white pe-5 ps-5 pt-2 pb-2 mt-1" type="submit">Send</button>
       </div>
   
     </form>

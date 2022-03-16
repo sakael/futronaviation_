@@ -80,6 +80,12 @@
     .dropdown-item:focus {}
 }
 
+.send {
+    background-color: #9b1c4f;
+    border-radius: 20px;
+    color: #FFF;
+}
+
 @media (max-width: 576px) {
     .top-menu li a {
         font-size: 10px;
