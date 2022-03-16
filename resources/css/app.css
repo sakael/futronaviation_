@@ -47,6 +47,15 @@
     font-weight: 500;
 }
 
+.contact-us {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.contact-us:hover {
+    text-decoration: #000;
+}
+
 .top-contact-info .icon-mail {
     display: none;
 }
