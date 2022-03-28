@@ -14,9 +14,7 @@
                     <!--<li class="list-inline-item position-relative me-md-5 me-0"><i
                             class="icon-phone2 fs-18 white"></i><span class="fs-14 raleway">(757)
                             269-9864</span></li>-->
-                    <li class="list-inline-item position-relative ms-2 me-3"><a href="mailto:Info@futronaviation.com"><i
-                            class="icon-mail fs-18 white"></i><span
-                            class="fs-14 raleway">Info@futronaviation.com</span></a></li>
+
                     <li class="list-inline-item"><a href="https://www.facebook.com/futronaviation" class="me-1" target="_blank"><i
                                 class="icon-facebook fs-20 white"></i></a></li>
                     <li class="list-inline-item"><a href="https://twitter.com/futronaviation" class="" target="_blank"><i
@@ -50,16 +48,11 @@
                     <li class="nav-item">
                         <a class="nav-link {{ (request()->is('risk-management')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'risk-management'])}}">Risk Management</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Safety Management Systems
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item   {{ (request()->is('safety-management-systems')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-management-systems'])}}">Safety Management Systems</a></li>
-                            <li><a class="dropdown-item  {{ (request()->is('safety-culture')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-culture'])}}">Safety Culture</a></li>
-                            <li><a class="dropdown-item  {{ (request()->is('safety-risk-assessments')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-risk-assessments'])}}">Safety Risk Assessments</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link {{ (request()->is('safety-management-systems')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-management-systems'])}}">Safety Management Systems</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ (request()->is('safety-culture')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-culture'])}}">Safety Culture/Risk Assessments</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ (request()->is('unmanned-aircraft-systems-uas')) ? 'active' : '' }}" href="{{route('pageRoute',['page_slug'=>'unmanned-aircraft-systems-uas'])}}">Unmanned Aircraft Systems (UAS)</a>
