@@ -79,17 +79,9 @@
         <div class="row text-center">
             <div class="col-12 col-md-12 col-sm-12 col-lg-7 col-xl-7">
                 <div class="row align-items-center">
-                    <div class="col-3 col-md-3">
-                        <a href="{{route('home')}}"><img src="{{ asset('images/logos/35Logo.png') }}" class="img-fluid"
-                            style="max-width: 100%;"></a>
-                    </div>
-                    <div class="col-6 col-md-6">
-                        <a href="{{route('home')}}"><img src="{{ asset('images/logos/LOGO.png') }}" class="img-fluid"
+                    <div class="col-12 col-md-12">
+                        <a href="{{route('home')}}"><img src="{{ asset('images/logos.png') }}" class="img-fluid"
                             style="max-width: 100%"></a>
-                    </div>
-                    <div class="col-3 col-md-3">
-                        <a href="{{route('home')}}"><img src="{{ asset('images/logos/topbarlogo.png') }}" class="img-fluid"
-                            style="max-width: 100%;"></a>
                     </div>
                 </div>
             </div>

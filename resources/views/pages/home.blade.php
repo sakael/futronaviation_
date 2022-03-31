@@ -75,7 +75,7 @@
                 <div class="col-lg-6 white border-md-start" data-aos="fade-up-left" data-aos-offset="0"
                     data-aos-easing="ease-in-sine">
                     <div class="box  p-5 white border-start  position-relative">
-                        <img src="{{ asset('images/icons/icon-5-back.png') }}" class="mb-4 mt-1">
+                        <img src="{{ asset('images/RTM-white.png') }}" class="mb-4 mt-1">
                         <h2 class="raleway fs-24 fw-bold mb-3">RTMs / Conferences</h2>
                         <p class="cabin fs-16 pb-4">From Large Hub to smaller Regional airports, Futron Aviation has assisted Part 139 Airport Management in the Safety Management System development process. Current and recent past clients for a gap analysis, Safety Risk Assessments (SRA), SMS Implementation, and Safety Training include Denver, Indianapolis, Peoria, San Antonio, San Francisco, Seattle-Tacoma International and South Bend Regional Airports.
                         </p>
@@ -95,7 +95,7 @@
                     <img src="{{ asset('images/logos/35Logo.png') }}">
                 </div>
                 <div class="col-12 col-md-6 text-center">
-                    <h1 class="text-center fs-36 raleway extra-bold lh-70">FUTRON AVIATION – <br>
+                    <h1 class="text-center fs-36 raleway extra-bold lh-70">FUTRON AVIATION <br>
                         CELEBRATING 35 YEARS</h1>
                 </div>
             </div>

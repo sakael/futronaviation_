@@ -38,11 +38,11 @@
                                     </div>
                                     <!-- Name input -->
                                     <div class="mb-3">
-                                        <input class="form-control" id="phone" type="text" placeholder="phone" />
+                                        <input class="form-control" id="phone" type="text" placeholder="Phone" />
                                     </div>
                                     <!-- Name input -->
                                     <div class="mb-3">
-                                        <input class="form-control" id="subject" type="text" placeholder="subject" />
+                                        <input class="form-control" id="subject" type="text" placeholder="Subject" />
                                     </div>
                                     <!-- Message input -->
                                     <div class="mb-3">

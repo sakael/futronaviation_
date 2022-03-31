@@ -10,13 +10,14 @@
         <div class="text-wrap p-5 position-relative">
             <h3 class="fs-48 extra-bold raleway uppercase lh-base">
                 Your Expert for<br><span class="replace-me">
-                   Safety Management Systems,
+                    Research Studies,
                     Reverse Trade missions and Conferences,
+                    Project risk Management,
+                    Safety Management Systems,
                     Safety reporting and Culture,
-                    Project risk Management
+                    Project risk Management,
+                    UNMANNED AIRCRAFT SYSTEMS (UAS),
                 </span></h3>
-            <p class="cabin lh-sm fs-20 mt-4">Futron Aviation is an industry leader in the development <br>
-                and implementation of Safety Management Systems (SMS). </p>
         </div>
         <img class="position-absolute image-sphere" src="{{ asset('images/images/sphere.png') }}">
     </div>

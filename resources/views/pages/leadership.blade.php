@@ -19,7 +19,7 @@
                             <div class="person-author mt-5">
                                 <div class="person-author-wrapper"><span class="person-name">
                                         {{ $leadership->title }}</span><span
-                                        class="person-title">{{ $leadership->position }} &amp; CEO</span></div>
+                                        class="person-title">{{ $leadership->position }} </span></div>
                                 <div class="fusion-social-networks boxed-icons">
                                     <a class="fusion-social-network-icon fusion-tooltip icon-facebook2"
                                         href="{{ $leadership->facebook }}" target="_blank"
