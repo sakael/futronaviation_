@@ -42,14 +42,17 @@
 .page-hero .background-leadership {
     height: 800px;
     background-image: url("images/pages/leadership.jpg");
+    background-size: 100% auto;
 }
-.page-hero .background-leadership {
+.page-hero .background-career {
     height: 800px;
     background-image: url("images/pages/career.jpg");
+    background-size: 100% auto;
 }
 .page-hero .background-airplane {
     height: 800px;
     background-image: url("images/pages/airplane.jpg");
+    background-size: 100% auto;
 }
 .page-hero .background-uas {
     height: 800px;
