@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="container home-box-wrapper mt-md-1 mt-3">
+        <div class="container home-box-wrapper mt-md-1 mt-3 mb-5">
             <div class="row g-md-0 g-3">
                 <div class="col-lg-6" data-aos="fade-up-right" data-aos-offset="0" data-aos-easing="ease-in-sine">
                     <div class="box  p-5 white border-start position-relative">

@@ -39,11 +39,22 @@
     background-image: url("images/pages/SafetyCulture.jpg");
 }
 
+.page-hero .background-leadership {
+    height: 800px;
+    background-image: url("images/pages/leadership.jpg");
+}
+.page-hero .background-leadership {
+    height: 800px;
+    background-image: url("images/pages/career.jpg");
+}
+.page-hero .background-airplane {
+    height: 800px;
+    background-image: url("images/pages/airplane.jpg");
+}
 .page-hero .background-uas {
     height: 800px;
     background-image: url("images/pages/UAS.jpg");
 }
-
 .page-hero .col-7 {
     height: 800px;
 }

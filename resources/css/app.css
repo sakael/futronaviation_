@@ -87,6 +87,9 @@
 }
 
 @media (max-width: 576px) {
+    .top-contact-info{
+        text-align: left;
+    }
     .top-menu li a {
         font-size: 10px;
         font-family: "Raleway", sans-serif;
@@ -111,7 +114,7 @@
         top: 4px;
     }
     .top-contact-info li a i {
-        font-size: 14px;
+        font-size: 18px;
     }
     .top-menu li {
         padding-right: 7px;
