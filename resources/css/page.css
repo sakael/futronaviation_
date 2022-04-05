@@ -22,41 +22,46 @@
 .page-hero .background-research-sties {
     height: 800px;
     background-image: url("images/pages/ResearchSties.jpg");
+    background-size: auto 100%;
 }
 
 .page-hero .background-rtm {
     height: 800px;
     background-image: url("images/pages/RTM.jpg");
+    background-size: auto 100%;
 }
 
 .page-hero .background-safety-risk-assessments {
     height: 800px;
     background-image: url("images/pages/Safety-Risk-Assessments.jpg");
+    background-size: auto 100%;
 }
 
 .page-hero .background-safety-culture {
     height: 800px;
     background-image: url("images/pages/SafetyCulture.jpg");
+    background-size: auto 100%;
 }
 
 .page-hero .background-leadership {
     height: 800px;
     background-image: url("images/pages/leadership.jpg");
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 .page-hero .background-career {
     height: 800px;
     background-image: url("images/pages/career.jpg");
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 .page-hero .background-airplane {
     height: 800px;
     background-image: url("images/pages/airplane.jpg");
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 .page-hero .background-uas {
     height: 800px;
     background-image: url("images/pages/UAS.jpg");
+    background-size: auto 100%;
 }
 .page-hero .col-7 {
     height: 800px;

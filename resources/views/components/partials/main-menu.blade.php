@@ -6,26 +6,25 @@
                     <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link {{ (request()->is('research-studies')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'research-studies'])}}">RESEARCH
-                                    STUDIES</a>
+                                <a class="nav-link {{ (request()->is('safety-management-systems')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-management-systems'])}}">Safety Management Systems</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ (request()->is('rtms-and-conferences')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'rtms-and-conferences'])}}">RTMs AND
-                                    CONFERENCES</a>
+                                <a class="nav-link {{ (request()->is('research-studies')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'research-studies'])}}">RESEARCH
+                                    STUDIES</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link {{ (request()->is('risk-management')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'risk-management'])}}">Risk Management</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ (request()->is('safety-management-systems')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-management-systems'])}}">Safety Management Systems</a>
+                                <a class="nav-link {{ (request()->is('unmanned-aircraft-systems-uas')) ? 'active' : '' }}" href="{{route('pageRoute',['page_slug'=>'unmanned-aircraft-systems-uas'])}}">Unmanned Aircraft Systems (UAS)</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link {{ (request()->is('safety-culture')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-culture'])}}">Safety Culture/Risk Assessments</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ (request()->is('unmanned-aircraft-systems-uas')) ? 'active' : '' }}" href="{{route('pageRoute',['page_slug'=>'unmanned-aircraft-systems-uas'])}}">Unmanned Aircraft Systems (UAS)</a>
+                                <a class="nav-link {{ (request()->is('rtms-and-conferences')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'rtms-and-conferences'])}}">RTMs AND
+                                    CONFERENCES</a>
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
