@@ -9,7 +9,7 @@
     <x-section name="hero-short-content">
         {!! $page->short_content !!}
     </x-section>
-    <div class="section-page mt-1">
+    <div class="section-page mt-4">
         <div class="container position-relative">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-12">
