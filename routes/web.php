@@ -15,7 +15,7 @@ use App\Http\Controllers\{CareerController,PageController,LeadershipController};
 */
 
 Route::get('/', function () {
-    return view('pages.home',['seo'=>array('title' => 'Home','description' => 'FutronAviation')]);
+    return view('pages.home_new',['seo'=>array('title' => 'Home','description' => 'FutronAviation')]);
 })->name('home');
 
 Route::get('/leadership',[LeadershipController::class, 'index'])->name('leadership');

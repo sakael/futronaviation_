@@ -8,6 +8,9 @@
     background-color: #900039;
     border-color: #ab3f6a !important;
     z-index: 2;
+    border-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
 }
 
 .home-box-wrapper .border-start {
@@ -191,3 +194,55 @@
     border-radius: 20px;
     color: #FFF;
 }
+
+#showcase {
+    height: 670px;
+    overflow: visible !important;
+  }
+  .card-home {
+    cursor: pointer;
+    width: 260px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgba(61, 9, 9, 0.8);
+    border: 2px white dotted;
+    border-radius: 12px;
+  }
+  .card-home h2 {
+    margin: 0 0 7px 0;
+  }
+  .card-home a {
+    font-size: 18px;
+    display: block;
+  }
+  .card-home p {
+    font-size: 15px;
+  }
+  .nav-home {
+    width: 64px;
+    height: 134px;
+    color: #ccc;
+    font: bold 3em "Lucida Grande";
+    text-align: center;
+    text-shadow: 0px 1px 0px #f5f5f5;
+    background: rgba(150, 150, 150, 0.5);
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+    position: absolute;
+    top: 33%;
+  }
+  .nav-home:active,
+  .nav-home.down {
+    background: rgba(120, 120, 120, 0.5);
+    border: solid 2px rgba(0, 0, 0, 0.55);
+  }
+  .nav-home.left {
+    display:none;
+  }
+  .nav-home.right {
+    display:none;
+  }
+  
