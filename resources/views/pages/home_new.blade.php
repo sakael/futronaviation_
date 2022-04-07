@@ -2,8 +2,8 @@
     <x-section name="scripts-hedaer">
         <!-- Some JS and styles -->
     </x-section>
-    <div class="home-boxes-wrapper">
-        <div class="container mb-5 home-box-wrapper d-sm-none d-md-block">
+    <div class="home-boxes-wrapper  d-sm-none d-md-block">
+        <div class="container mb-2 home-box-wrapper">
             <div class="row g-md-0 g-3">
                 <div id="showcase" class="noselect">
                     <div class="col-lg-6 card-home-new">
@@ -205,9 +205,8 @@
             </div>
         </div>
     </div>
-    <div class="mt-5 mb-5 d-inline-block"></div>
     <div class="section-4 d-none d-sm-block ">
-        <div class="container position-relative mt-5">
+        <div class="container position-relative ">
             <div class="row ">
                 <div class="col-12 col-md-3 text-center">
                     <img src="{{ asset('images/logos/35Logo.png') }}">
