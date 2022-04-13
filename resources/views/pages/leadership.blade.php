@@ -1,4 +1,4 @@
-<x-layouts.inner-page :seo="$seo" :background="$page->hero_background">
+<x-layouts.leadership :seo="$seo" :background="$page->hero_background">
     <x-section name="scripts-hedaer">
         <!-- Some JS and styles -->
     </x-section>
@@ -57,4 +57,4 @@
         <script type="text/javascript">
         </script>
     </x-section>
-</x-layouts.inner-page>
+</x-layouts.leadership>
