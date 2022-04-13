@@ -12,11 +12,17 @@
     overflow: hidden;
     z-index: -1;
 }
-
+.page-hero .background-small{
+    height: 200px;
+    background-image: url("images/Leadership-back.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 .page-hero .background {
     height: 800px;
     background-image: url("images/shutterstock_17_72.jpg");
     background-repeat: no-repeat;
+    background-size: auto 100%;
 }
 
 .page-hero .background-research-sties {

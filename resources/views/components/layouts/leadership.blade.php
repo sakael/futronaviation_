@@ -15,7 +15,7 @@
     @yield('scripts-hedaer','')
 </head>
 
-<body class="page-body">
+<body class="page-body-leadership">
     <div id="wrapper" class="clearfix">
         <header id="header" class="full-header">
             <div id="header-wrap" class="">
@@ -23,8 +23,8 @@
                 </x-paritals.topbar>
                 <x-partials.main-menu>
                 </x-paritals.main-menu>
-                <x-partials.small-herro :background="$background">
-                </x-paritals.small-herro>
+                <x-partials.small-hero>
+                </x-paritals.small-hero>
             </div>
         </header>
         {{ $slot }}
