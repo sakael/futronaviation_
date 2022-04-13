@@ -2,7 +2,7 @@
     <x-section name="scripts-hedaer">
         <!-- Some JS and styles -->
     </x-section>
-    <div class="home-boxes-wrapper  d-sm-none d-md-block">
+    <div class="home-boxes-wrapper  d-md-block d-none d-md-block">
         <div class="container mb-2 home-box-wrapper">
             <div class="row g-md-0 g-3">
                 <div id="showcase" class="noselect">

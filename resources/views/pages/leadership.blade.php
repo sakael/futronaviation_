@@ -12,8 +12,8 @@
         <div class="container position-relative">
             <div class="row justify-content-center gx-5">
                 @foreach ($leaderships as $leadership)
-                    <div class="col-md-6 text-center">
-                        <div class="p-5" >
+                    <div class="col-lg-6 col-12 text-center">
+                        <div class="p-5 pt-2" >
                             <p class="text-start">
                             <img src="http://cms.futronaviation.com{{ $leadership->photo }}" class="text-start"
                                 alt="">

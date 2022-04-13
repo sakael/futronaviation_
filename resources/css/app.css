@@ -281,6 +281,10 @@
     .hero .first-col {
         height: 600px;
     }
+    .page-body-leadership .page-inner-hero{
+        margin-top:115px;
+        margin-bottom: 50px;
+    }
 }
 
 #header {
