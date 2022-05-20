@@ -63,13 +63,13 @@
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('safety-culture') ? 'active' : '' }}"
                             aria-current="page" href="{{ route('pageRoute', ['page_slug' => 'safety-culture']) }}">Safety
-                            Culture/Risk Assessments</a>
+                            Culture</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('rtms-and-conferences') ? 'active' : '' }}"
+                        <a class="nav-link {{ request()->is('events-and-conferences') ? 'active' : '' }}"
                             aria-current="page"
-                            href="{{ route('pageRoute', ['page_slug' => 'rtms-and-conferences']) }}">RTMs AND
-                            CONFERENCES</a>
+                            href="{{ route('pageRoute', ['page_slug' => 'events-and-conferences']) }}">Events AND
+                            CONFERENCESddd</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('home') }}">Home</a>

@@ -219,7 +219,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-md-8 col-12">
-                    <p class="mt-5">Futron’s aviation experts bring decades of experience in critical aspects
+                    <p class="mt-5">Futron Aviation’s experts bring decades of experience in critical aspects
                         of safety, operations, hazard analysis, research, and risk management. We view safety as an
                         inseparable and critical component of operational excellence. We strive to integrate safety
                         practices into the daily operational mindset of airports and flying operations, building a

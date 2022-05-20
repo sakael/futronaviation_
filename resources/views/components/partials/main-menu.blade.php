@@ -19,10 +19,10 @@
                                 <a class="nav-link {{ (request()->is('unmanned-aircraft-systems-uas')) ? 'active' : '' }}" href="{{route('pageRoute',['page_slug'=>'unmanned-aircraft-systems-uas'])}}">Unmanned Aircraft Systems (UAS)</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ (request()->is('safety-culture')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-culture'])}}">Safety Culture/Risk Assessments</a>
+                                <a class="nav-link {{ (request()->is('safety-culture')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'safety-culture'])}}">Safety Culture</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ (request()->is('rtms-and-conferences')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'rtms-and-conferences'])}}">RTMs AND
+                                <a class="nav-link {{ (request()->is('events-and-conferences')) ? 'active' : '' }}" aria-current="page" href="{{route('pageRoute',['page_slug'=>'events-and-conferences'])}}">Events AND
                                     CONFERENCES</a>
                             </li>
                         </ul>
