@@ -96,7 +96,7 @@
                     <div class="col-lg-6 white card-home-new border-md-start">
                         <div class="box box-1  p-5 white border-start  position-relative">
                             <img src="{{ asset('images/RTM-white.png') }}" class="mb-4 mt-1">
-                            <h2 class="raleway fs-24 fw-bold mb-3">RTMs / Conferences</h2>
+                            <h2 class="raleway fs-24 fw-bold mb-3">Events and Conferences</h2>
                             <p class="cabin fs-16 pb-4">From Large Hub to smaller Regional airports, Futron Aviation
                                 has assisted Part 139 Airport Management in the Safety Management System development
                                 process. Current and recent past clients for a gap analysis, Safety Risk Assessments
@@ -105,7 +105,7 @@
                                 Airports.
                             </p>
                             <div class="read-more-wrapper"><a
-                                    href="{{ route('pageRoute', ['page_slug' => 'rtms-and-conferences']) }}"
+                                    href="{{ route('pageRoute', ['page_slug' => 'events-and-conferences']) }}"
                                     class="read-more-home white raleway fs-16 medium">READ MORE <span></span></a>
                             </div>
                         </div>
@@ -194,10 +194,10 @@
                     data-aos-easing="ease-in-sine">
                     <div class="box  p-5 white border-start  position-relative">
                         <img src="{{ asset('images/RTM-white.png') }}" class="mb-4 mt-1">
-                        <h2 class="raleway fs-24 fw-bold mb-3">RTMs / Conferences</h2>
+                        <h2 class="raleway fs-24 fw-bold mb-3">Events and Conferences</h2>
                         <p class="cabin fs-16 pb-4">From Large Hub to smaller Regional airports, Futron Aviation has assisted Part 139 Airport Management in the Safety Management System development process. Current and recent past clients for a gap analysis, Safety Risk Assessments (SRA), SMS Implementation, and Safety Training include Denver, Indianapolis, Peoria, San Antonio, San Francisco, Seattle-Tacoma International and South Bend Regional Airports.
                         </p>
-                        <div class="read-more-wrapper"><a href="{{route('pageRoute',['page_slug'=>'rtms-and-conferences'])}}"
+                        <div class="read-more-wrapper"><a href="{{route('pageRoute',['page_slug'=>'events-and-conferences'])}}"
                                 class="read-more-home white raleway fs-16 medium">READ MORE <span></span></a>
                         </div>
                     </div>
